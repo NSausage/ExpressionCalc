@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		251C88A611D15BA000E6176E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251C88A511D15BA000E6176E /* MessageUI.framework */; };
+		2557AA6A12C4CD550071ED87 /* SelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557AA6812C4CD550071ED87 /* SelectController.m */; };
+		2557AA6B12C4CD550071ED87 /* SelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2557AA6912C4CD550071ED87 /* SelectController.xib */; };
+		2557AB1812C509DC0071ED87 /* iPadDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557AB1512C509DC0071ED87 /* iPadDataAppDelegate.m */; };
+		256E35DA13565B5C00E456CD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256E35D913565B5C00E456CD /* CFNetwork.framework */; };
+		256E35DE13565B6300E456CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256E35DD13565B6300E456CD /* SystemConfiguration.framework */; };
+		25F1CFDB12C7C25700767748 /* RootViewControlleriPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F1CFDA12C7C25700767748 /* RootViewControlleriPad.m */; };
+		25FE66BD132D549D0072D304 /* aboutScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FE66BC132D549C0072D304 /* aboutScreenController.m */; };
+		25FE66C9132D54C90072D304 /* aboutScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FE66C8132D54C90072D304 /* aboutScreenController.xib */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5692CF7617E90AAD00A18BE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5692CF7517E90AAD00A18BE9 /* Images.xcassets */; };
+		56A86DC518F14AFA007478AE /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A86DC118F14AFA007478AE /* GCMathParser.m */; };
+		56A86DC618F14AFA007478AE /* Implementation Notes in Resources */ = {isa = PBXBuildFile; fileRef = 56A86DC218F14AFA007478AE /* Implementation Notes */; };
+		56A86DC718F14AFA007478AE /* ZExpParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 56A86DC418F14AFA007478AE /* ZExpParser.mm */; };
+		56A86DCD18F2613B007478AE /* ExpressionWithSearchReCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A86DCA18F2613B007478AE /* ExpressionWithSearchReCalc.m */; };
+		56A86DCE18F2613B007478AE /* ExpressionWithSearchReCalc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A86DCB18F2613B007478AE /* ExpressionWithSearchReCalc.xib */; };
+		56A86DCF18F2613B007478AE /* ExpressionWithSearchReCalciPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A86DCC18F2613B007478AE /* ExpressionWithSearchReCalciPad.xib */; };
+		56C547D0158CF6AA0045E1A4 /* aboutScreenControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C547C7158CF6AA0045E1A4 /* aboutScreenControlleriPad.xib */; };
+		56C547D5158CF6AA0045E1A4 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C547CC158CF6AA0045E1A4 /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		251C88A511D15BA000E6176E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2557AA6712C4CD550071ED87 /* SelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectController.h; sourceTree = "<group>"; };
+		2557AA6812C4CD550071ED87 /* SelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectController.m; sourceTree = "<group>"; };
+		2557AA6912C4CD550071ED87 /* SelectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectController.xib; path = Classes/SelectController.xib; sourceTree = "<group>"; };
+		2557AB1512C509DC0071ED87 /* iPadDataAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadDataAppDelegate.m; sourceTree = "<group>"; };
+		2557AB1612C509DC0071ED87 /* iPadDataAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadDataAppDelegate.h; sourceTree = "<group>"; };
+		256E35D913565B5C00E456CD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		256E35DD13565B6300E456CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		25F1CFD912C7C25700767748 /* RootViewControlleriPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewControlleriPad.h; path = Classes/RootViewControlleriPad.h; sourceTree = "<group>"; };
+		25F1CFDA12C7C25700767748 /* RootViewControlleriPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewControlleriPad.m; path = Classes/RootViewControlleriPad.m; sourceTree = "<group>"; };
+		25FE66BB132D549C0072D304 /* aboutScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutScreenController.h; sourceTree = "<group>"; };
+		25FE66BC132D549C0072D304 /* aboutScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutScreenController.m; sourceTree = "<group>"; };
+		25FE66C8132D54C90072D304 /* aboutScreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = aboutScreenController.xib; path = Classes/aboutScreenController.xib; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Calc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc_Prefix.pch; sourceTree = "<group>"; };
+		5633D27E19D3DF8500748F10 /* Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calc-Info.plist"; sourceTree = "<group>"; };
+		5692CF7517E90AAD00A18BE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DateAndTime/Images.xcassets; sourceTree = "<group>"; };
+		56A86DC018F14AFA007478AE /* GCMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCMathParser.h; path = GCMathParser/GCMathParser.h; sourceTree = "<group>"; };
+		56A86DC118F14AFA007478AE /* GCMathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCMathParser.m; path = GCMathParser/GCMathParser.m; sourceTree = "<group>"; };
+		56A86DC218F14AFA007478AE /* Implementation Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Implementation Notes"; path = "GCMathParser/Implementation Notes"; sourceTree = "<group>"; };
+		56A86DC318F14AFA007478AE /* ZExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZExpParser.h; path = GCMathParser/ZExpParser.h; sourceTree = "<group>"; };
+		56A86DC418F14AFA007478AE /* ZExpParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZExpParser.mm; path = GCMathParser/ZExpParser.mm; sourceTree = "<group>"; };
+		56A86DC918F2613B007478AE /* ExpressionWithSearchReCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpressionWithSearchReCalc.h; path = ../../../../iOSTemplates/ExpressionWithSearchReCalc.h; sourceTree = "<group>"; };
+		56A86DCA18F2613B007478AE /* ExpressionWithSearchReCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpressionWithSearchReCalc.m; path = ../../../../iOSTemplates/ExpressionWithSearchReCalc.m; sourceTree = "<group>"; };
+		56A86DCB18F2613B007478AE /* ExpressionWithSearchReCalc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpressionWithSearchReCalc.xib; path = ../../../iOSTemplates/ExpressionWithSearchReCalc.xib; sourceTree = "<group>"; };
+		56A86DCC18F2613B007478AE /* ExpressionWithSearchReCalciPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpressionWithSearchReCalciPad.xib; path = ../../../iOSTemplates/ExpressionWithSearchReCalciPad.xib; sourceTree = "<group>"; };
+		56C547C7158CF6AA0045E1A4 /* aboutScreenControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = aboutScreenControlleriPad.xib; path = Classes/aboutScreenControlleriPad.xib; sourceTree = "<group>"; };
+		56C547CC158CF6AA0045E1A4 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Classes/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				251C88A611D15BA000E6176E /* MessageUI.framework in Frameworks */,
+				256E35DA13565B5C00E456CD /* CFNetwork.framework in Frameworks */,
+				256E35DE13565B6300E456CD /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Universal Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56A86DD018F29C0D007478AE /* Expression with Search & Replace */,
+				25D736ED13428510000AE960 /* Info and About */,
+			);
+			name = "Universal Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2557AA3012C4C2260071ED87 /* XIB Resources-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				257BB30E12DE0BCA007500D4 /* Main */,
+				56A86DCB18F2613B007478AE /* ExpressionWithSearchReCalc.xib */,
+				25FE66C8132D54C90072D304 /* aboutScreenController.xib */,
+			);
+			name = "XIB Resources-iPhone";
+			sourceTree = "<group>";
+		};
+		2557AAF912C507AF0071ED87 /* XIB Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				257BB30F12DE0BE3007500D4 /* Main */,
+				56A86DCC18F2613B007478AE /* ExpressionWithSearchReCalciPad.xib */,
+				56C547C7158CF6AA0045E1A4 /* aboutScreenControlleriPad.xib */,
+			);
+			name = "XIB Resources-iPad";
+			sourceTree = "<group>";
+		};
+		2557AB0A12C508A80071ED87 /* Classes-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2557AB1612C509DC0071ED87 /* iPadDataAppDelegate.h */,
+				2557AB1512C509DC0071ED87 /* iPadDataAppDelegate.m */,
+				25F1CFD912C7C25700767748 /* RootViewControlleriPad.h */,
+				25F1CFDA12C7C25700767748 /* RootViewControlleriPad.m */,
+			);
+			name = "Classes-iPad";
+			sourceTree = "<group>";
+		};
+		257BB30E12DE0BCA007500D4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2557AA6912C4CD550071ED87 /* SelectController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		257BB30F12DE0BE3007500D4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				56C547CC158CF6AA0045E1A4 /* MainWindow-iPad.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		25D736ED13428510000AE960 /* Info and About */ = {
+			isa = PBXGroup;
+			children = (
+				25FE66BB132D549C0072D304 /* aboutScreenController.h */,
+				25FE66BC132D549C0072D304 /* aboutScreenController.m */,
+			);
+			name = "Info and About";
+			sourceTree = "<group>";
+		};
+		25DD5E6B12D54A8C000398FD /* Classes-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */,
+				2557AA6712C4CD550071ED87 /* SelectController.h */,
+				2557AA6812C4CD550071ED87 /* SelectController.m */,
+			);
+			name = "Classes-iPhone";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				56A86DC818F14AFE007478AE /* GCMathParser */,
+				29B97315FDCFA39411CA2CEA /* Libraries */,
+				080E96DDFE201D6D7F000001 /* Universal Classes */,
+				25DD5E6B12D54A8C000398FD /* Classes-iPhone */,
+				2557AB0A12C508A80071ED87 /* Classes-iPad */,
+				2557AA3012C4C2260071ED87 /* XIB Resources-iPhone */,
+				2557AAF912C507AF0071ED87 /* XIB Resources-iPad */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				32CA4F630368D1EE00C91783 /* Calc_Prefix.pch */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5692CF7517E90AAD00A18BE9 /* Images.xcassets */,
+				5633D27E19D3DF8500748F10 /* Calc-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				251C88A511D15BA000E6176E /* MessageUI.framework */,
+				256E35D913565B5C00E456CD /* CFNetwork.framework */,
+				256E35DD13565B6300E456CD /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56A86DC818F14AFE007478AE /* GCMathParser */ = {
+			isa = PBXGroup;
+			children = (
+				56A86DC018F14AFA007478AE /* GCMathParser.h */,
+				56A86DC118F14AFA007478AE /* GCMathParser.m */,
+				56A86DC218F14AFA007478AE /* Implementation Notes */,
+				56A86DC318F14AFA007478AE /* ZExpParser.h */,
+				56A86DC418F14AFA007478AE /* ZExpParser.mm */,
+			);
+			name = GCMathParser;
+			sourceTree = "<group>";
+		};
+		56A86DD018F29C0D007478AE /* Expression with Search & Replace */ = {
+			isa = PBXGroup;
+			children = (
+				56A86DC918F2613B007478AE /* ExpressionWithSearchReCalc.h */,
+				56A86DCA18F2613B007478AE /* ExpressionWithSearchReCalc.m */,
+			);
+			name = "Expression with Search & Replace";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calc" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calc;
+			productName = MailComposer;
+			productReference = 1D6058910D05DD3D006BFB54 /* Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+				fr,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				56A86DCF18F2613B007478AE /* ExpressionWithSearchReCalciPad.xib in Resources */,
+				2557AA6B12C4CD550071ED87 /* SelectController.xib in Resources */,
+				5692CF7617E90AAD00A18BE9 /* Images.xcassets in Resources */,
+				25FE66C9132D54C90072D304 /* aboutScreenController.xib in Resources */,
+				56A86DC618F14AFA007478AE /* Implementation Notes in Resources */,
+				56C547D0158CF6AA0045E1A4 /* aboutScreenControlleriPad.xib in Resources */,
+				56A86DCE18F2613B007478AE /* ExpressionWithSearchReCalc.xib in Resources */,
+				56C547D5158CF6AA0045E1A4 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iPhoneAppDelegate.m in Sources */,
+				56A86DCD18F2613B007478AE /* ExpressionWithSearchReCalc.m in Sources */,
+				2557AA6A12C4CD550071ED87 /* SelectController.m in Sources */,
+				2557AB1812C509DC0071ED87 /* iPadDataAppDelegate.m in Sources */,
+				25F1CFDB12C7C25700767748 /* RootViewControlleriPad.m in Sources */,
+				25FE66BD132D549D0072D304 /* aboutScreenController.m in Sources */,
+				56A86DC718F14AFA007478AE /* ZExpParser.mm in Sources */,
+				56A86DC518F14AFA007478AE /* GCMathParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calc_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Calc-Info.plist";
+				PRODUCT_NAME = Calc;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calc_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Calc-Info.plist";
+				PRODUCT_NAME = Calc;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2514A37E13466159009E6C6C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7b49f443-358d-4173-96c1-7e20cc2aa85f";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		2514A37F13466159009E6C6C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calc_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Calc-Info.plist";
+				PRODUCT_NAME = Calc;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7b49f443-358d-4173-96c1-7e20cc2aa85f";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7b49f443-358d-4173-96c1-7e20cc2aa85f";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				2514A37F13466159009E6C6C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				2514A37E13466159009E6C6C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
