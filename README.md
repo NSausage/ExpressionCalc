@@ -5,8 +5,8 @@ Text Expression Calculator for the iOS platform
 
 This uses GCMathParser to convert text to math experessions.
 
-![Alt text](iOSa.jpg)
+![Screenshot](https://github.com/NSausage/ExpressionCalc/blob/master/iOS6a.png)
 
-![Alt text](iOSb.jpg)
+![Screenshot](https://github.com/NSausage/ExpressionCalc/blob/master/iOS6b.png)
 
-![Alt text](iOSc.jpg)
+![Screenshot](https://github.com/NSausage/ExpressionCalc/blob/master/iOS6a.png)
