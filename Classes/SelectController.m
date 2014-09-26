@@ -43,7 +43,7 @@
     
 	[listOfItems addObject:helpDict];
 	
-	self.navigationItem.title = @"Time Calculators";
+	self.navigationItem.title = @"Calculator";
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

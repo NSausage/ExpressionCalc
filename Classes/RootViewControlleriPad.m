@@ -34,7 +34,7 @@ int s = 0;
 	[listOfItems addObject:firstDict];
 	[listOfItems addObject:helpDict];
 	
-	self.navigationItem.title = @"Time Calculators";
+	self.navigationItem.title = @"Calculator";
 	self.clearsSelectionOnViewWillAppear = NO;
     
     [super viewDidLoad];
