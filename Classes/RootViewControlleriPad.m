@@ -17,7 +17,6 @@ int s = 0;
 
 - (void)viewDidLoad {
     
-    [super viewDidLoad];
 
 //    self.contentSizeForViewInPopover = CGSizeMake(310.0, self.tableView.rowHeight*12.0);
 	self.preferredContentSize = CGSizeMake(310.0, self.tableView.rowHeight*12.0);
@@ -37,6 +36,8 @@ int s = 0;
 	
 	self.navigationItem.title = @"Time Calculators";
 	self.clearsSelectionOnViewWillAppear = NO;
+    
+    [super viewDidLoad];
 }
 
 #pragma mark - Rotation support
@@ -53,7 +54,6 @@ int s = 0;
 
 - (void)splitViewController:(UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController:(UIPopoverController*)pc {
     
-		// Keep references to the popover controller and the popover button, and tell the detail view controller to show the button.
     barButtonItem.title = @"Calculators & Converters";
     self.popoverController = pc;
     self.rootPopoverButtonItem = barButtonItem;
@@ -64,7 +64,6 @@ int s = 0;
 
 - (void)splitViewController:(UISplitViewController*)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
 	
-		// Nil out references to the popover controller and the popover button, and tell the detail view controller to hide the button.
     UIViewController <SubstitutableDetailViewController> *detailViewController = [splitViewController.viewControllers objectAtIndex:1];
     [detailViewController invalidateRootPopoverButtonItem:rootPopoverButtonItem];
     self.popoverController = nil;
@@ -73,7 +72,7 @@ int s = 0;
 
 
 #pragma mark - Table view data source
-	// Customize the appearance of table view cells.
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"Cell";
@@ -112,16 +111,19 @@ int s = 0;
 	
     NSUInteger row = indexPath.row;
     NSUInteger sec = indexPath.section;
-	
+    int xsec = 0;
     UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
-	if (sec == 0) {
-		if (row == 0) {
+    
+	if (sec == xsec++) {
+        int x1 = 0;
+        if (row == x1++) {
 			ExpressionWithSearchReCalc *newDetailViewController2 = [[ExpressionWithSearchReCalc alloc] initWithNibName:@"ExpressionWithSearchReCalciPad" bundle:nil];
 			detailViewController = newDetailViewController2;
 		}
     }
-    if (sec == 3) {
-		if (row == 0) {
+    if (sec == xsec++) {
+        int x1 = 0;
+		if (row == x1++) {
 			aboutScreenController *newDetailViewController1 = [[aboutScreenController alloc] initWithNibName:@"aboutScreenControlleriPad" bundle:nil];
 			detailViewController = newDetailViewController1;
 		}
@@ -161,12 +163,12 @@ int s = 0;
 
 #pragma mark - Memory management
 
--(void) viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:YES];
-	
-	self.splitViewController = nil;
-	self.rootPopoverButtonItem = nil;
-}
+//-(void) viewDidDisappear:(BOOL)animated {
+//	
+//	self.splitViewController = nil;
+//	self.rootPopoverButtonItem = nil;
+//    [super viewDidDisappear:YES];
+//}
 
 - (void)dealloc {
 	[listOfItems release];

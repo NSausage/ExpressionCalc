@@ -22,8 +22,6 @@
 	} 
 }
 
-#pragma mark - CREATE THE VIEW
-
 - (void)viewDidLoad
 {
     self.title = @"About";
@@ -46,14 +44,14 @@
     // Release any cached data, images, etc. that aren't in use.
 }
 
-- (void)viewDidUnload {
-	
-	self.navigationBar = nil;
-
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
+//- (void)viewDidDisappear:(BOOL)animated {
+//	
+//	self.navigationBar = nil;
+//
+//    [super viewDidDisappear:YES];
+//    // Release any retained subviews of the main view.
+//    // e.g. self.myOutlet = nil;
+//}
 
 - (void)dealloc {
 	[navigationBar release];
